@@ -12,11 +12,15 @@ public class ZipPlugin extends Plugin {
     private Zip implementation = new Zip();
 
     @PluginMethod
-    public void echo(PluginCall call) {
-        String value = call.getString("value");
-
+    public void isAvailable(PluginCall call) {
         JSObject ret = new JSObject();
-        ret.put("value", implementation.echo(value));
+        ret.put("available", false);
+
         call.resolve(ret);
+    }
+
+    @PluginMethod
+    public void shareArchive(PluginCall call) {
+        call.reject("not yet implemented");
     }
 }

@@ -1,7 +1,7 @@
 {
   "name": "@enertrag/zip",
-  "version": "0.0.1",
-  "description": "Capacitor Zip file plugin",
+  "version": "1.0.0",
+  "description": "Capacitor share Archive file plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enertrag/zip.git"
+    "url": "git+https://github.com/enertrag/share-archive.git"
   },
   "bugs": {
-    "url": "https://github.com/enertrag/zip/issues"
+    "url": "https://github.com/enertrag/share-archive/issues"
   },
   "keywords": [
     "capacitor",
